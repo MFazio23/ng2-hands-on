@@ -1,0 +1,132 @@
+/**
+ * Sky theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+// Default mixins and settings -----------------
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,700,700italic,300italic,100,100italic,500,500italic,900italic,900);
+
+@font-face {
+  font-family: "Android";
+  src: url("/fonts/android/Android.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Android";
+  src: url("/fonts/android/Android Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Android-Hollow";
+  src: url("/fonts/android/Android Hollow.ttf");
+}
+
+@font-face {
+  font-family: "Android-Scratch";
+  src: url("/fonts/android/Android Scratch.ttf");
+}
+
+$android-green: #6ab344;
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Roboto', sans-serif;
+$mainColor: #333;
+$headingFont: 'Roboto', sans-serif;
+$headingColor: $android-green;
+$headingLetterSpacing: -0.08em;
+$headingTextShadow: none;
+$backgroundColor: #f7fbfc;
+$linkColor: $android-green;
+$linkColorHover: lighten($linkColor, 20%);
+$selectionBackgroundColor: #134674;
+
+// Fix links so they are not cut off
+.reveal a {
+  line-height: 1.3em;
+}
+
+// Background generator
+@mixin bodyBackground() {
+  @include radial-gradient(#add9e4, #f7fbfc);
+}
+
+// Theme template ------------------------------
+@import "../../node_modules/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+.reveal .slides section {
+  padding-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.reveal .smaller {
+  font-size: smaller;
+}
+
+.reveal .small {
+  font-size: 50%;
+}
+
+.reveal ul {
+  width: 95%;
+}
+
+.reveal li {
+  list-style-type: none;
+}
+
+.reveal a {
+  font-size: smaller;
+  font-style: italic;
+}
+
+li:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  color: #6ab344;
+  /* or whatever color you prefer */
+  margin-right: 10px;
+}
+
+.java {
+  .hljs-keyword {
+    color: fuchsia;
+  }
+  .type-name {
+    color: #1b91ff;
+  }
+  .constant {
+    color: forestgreen;
+  }
+}
+
+.reveal pre {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.slide-os {
+  position: absolute;
+  width: 70px;
+  left: 0;
+}
