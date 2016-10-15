@@ -1,4 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+    margin: .5em 0;
+    font-weight: bold;
+    color: #373277;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+}
 
 .houses {
     list-style-type: none;

@@ -1,6 +1,6 @@
 ##ng2 Architecture
 
-<img src="img/ng-overview.png" height="500" />
+<img src="img/ng-overview.png" />
 
 Note:
 + Modules
