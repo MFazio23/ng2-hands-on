@@ -10,7 +10,7 @@ import { Router } from "@angular/router";
     {{title}}
   </h1>
   <ul>
-    <li class="houses" *ngFor="let house of houses; let id = index;" (click)="goToHouseInfo(id, house)">
+    <li class="houses" *ngFor="let house of houses; let id = index;" [ngClass]="getRowClass(id)" (click)="goToHouseInfo(id, house)">
         <div class="house-info house-address">{{house.address}}</div>
         <span class="house-info">{{house.name}}</span>
         <div class="house-info house-icons">
@@ -33,6 +33,10 @@ export class HouseListComponent {
         this.houses = houseService.getHouses();
 
         this.houseString = JSON.stringify(this.houses);
+    }
+
+    getRowClass(index): string{
+        return index % 2 === 0 ? 'even' : 'odd';
     }
 
     goToHouseInfo(id: number, house: House): void {

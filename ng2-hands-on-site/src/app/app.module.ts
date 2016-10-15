@@ -7,13 +7,17 @@ import { AppComponent } from './components/app.component';
 import { HouseListComponent } from "./components/house-list.component";
 import { HouseService } from "./services/house.service";
 import { RouterModule } from "@angular/router";
-import { HouseDetailComponent } from "./components/house-detail.component";
+import { HouseInfoComponent } from "./components/house-info.component";
+import { AppInfoComponent } from "./components/app-info.component";
+import { TopNavComponent } from "./components/top-nav.component";
 
 @NgModule({
     declarations: [
         AppComponent,
+        AppInfoComponent,
+        TopNavComponent,
         HouseListComponent,
-        HouseDetailComponent
+        HouseInfoComponent
     ],
     imports: [
         BrowserModule,
@@ -21,8 +25,9 @@ import { HouseDetailComponent } from "./components/house-detail.component";
         HttpModule,
         RouterModule.forRoot([
             {path: '', redirectTo: '/houses', pathMatch: 'full'},
+            {path: 'app-info', component: AppInfoComponent},
             {path: 'houses', component: HouseListComponent},
-            {path: 'info/:id', component: HouseDetailComponent}
+            {path: 'info/:id', component: HouseInfoComponent}
         ])
     ],
     providers: [HouseService],

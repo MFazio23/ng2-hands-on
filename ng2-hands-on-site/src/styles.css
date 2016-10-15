@@ -16,16 +16,41 @@ label {
     font-size: 42px;
 }
 
+.top-nav-links {
+    margin: 15px;
+}
+
+.top-nav-link {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.top-nav-link:hover {
+    background-color: lightblue;
+}
+
 .houses {
     list-style-type: none;
     border: 2px solid grey;
-    background-color: #DDD;
     border-radius: 5px;
     max-width: 75%;
     margin: 5px;
     padding: 10px;
     display: flex;
     cursor: pointer;
+}
+
+.houses:hover {
+    background-color: lightblue;
+}
+
+.even {
+    background-color: #CCC;
+}
+
+.odd {
+    background-color: #EEE;
 }
 
 .house-info {

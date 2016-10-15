@@ -4,7 +4,7 @@ import { ActivatedRoute, Params } from "@angular/router";
 import { HouseService } from "../services/house.service";
 
 @Component({
-    selector: 'house-detail',
+    selector: 'house-info',
     template: `<div *ngIf="house">
     <div>
         <label>Name: </label>
@@ -36,7 +36,7 @@ import { HouseService } from "../services/house.service";
 `
 })
 
-export class HouseDetailComponent implements OnInit {
+export class HouseInfoComponent implements OnInit {
     house: House;
     id: number;
 

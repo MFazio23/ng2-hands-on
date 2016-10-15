@@ -3,12 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <h1 class="main-title">
-    {{title}}
-  </h1>
+  <top-nav></top-nav>
   <router-outlet></router-outlet>
 `
 })
 export class AppComponent {
-  title = 'Trick or Treat House Directory';
 }
