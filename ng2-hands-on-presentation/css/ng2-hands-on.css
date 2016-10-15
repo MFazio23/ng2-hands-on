@@ -309,6 +309,9 @@ body {
 .reveal small code {
   vertical-align: baseline; }
 
+.reveal .has-light-background {
+  color: #222; }
+
 .reveal .has-light-background h2 {
   color: #C3002F; }
 

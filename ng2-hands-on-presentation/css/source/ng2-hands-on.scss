@@ -80,6 +80,10 @@ $selectionColor: #fff;
 }
 
 //Fazio Custom additions
+.reveal .has-light-background {
+  color: $coal;
+}
+
 .reveal .has-light-background h2 {
   color: $ng-dark-red;
 }
