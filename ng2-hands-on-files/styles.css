@@ -1,9 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+    margin: .5em 0;
+    font-weight: bold;
+    color: #373277;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+}
+
+.top-nav-links {
+    margin: 15px;
+}
+
+.top-nav-link {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.top-nav-link:hover {
+    background-color: lightblue;
+}
 
 .houses {
     list-style-type: none;
     border: 2px solid grey;
-    background-color: #DDD;
     border-radius: 5px;
     max-width: 75%;
     margin: 5px;
@@ -12,12 +41,24 @@
     cursor: pointer;
 }
 
+.houses:hover {
+    background-color: lightblue;
+}
+
+.even {
+    background-color: #CCC;
+}
+
+.odd {
+    background-color: #EEE;
+}
+
 .house-info {
     flex: 0 0 25%;
 }
 
 .not-participating {
-    color: grey;
+    color: darkgray;
 }
 
 .house-address {

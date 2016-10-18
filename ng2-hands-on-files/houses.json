@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Jennifer Sanchez",
+        "address": "4299 Mcguire Avenue",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Todd Butler",
+        "address": "35 Vermont Court",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": false,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Melissa Fields",
+        "address": "41468 Graedel Plaza",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Debra Murphy",
+        "address": "5 Golf Plaza",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Anna Gordon",
+        "address": "47539 Huxley Crossing",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Clarence Graham",
+        "address": "5534 Mallory Park",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Diana Boyd",
+        "address": "4614 Welch Crossing",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Rachel Morris",
+        "address": "7682 Bayside Drive",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": false,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Joyce Freeman",
+        "address": "51770 Rowland Trail",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Carl Cruz",
+        "address": "76597 Shopko Trail",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Jeffrey King",
+        "address": "64156 Jackson Drive",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Evelyn Thomas",
+        "address": "9 Manitowish Hill",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Martha Jenkins",
+        "address": "2 Westerfield Crossing",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Roy Castillo",
+        "address": "59 Stang Avenue",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": false,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Samuel Bell",
+        "address": "118 Oak Valley Way",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Tina Moore",
+        "address": "721 Everett Street",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Mark Gutierrez",
+        "address": "140 Crest Line Center",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Theresa Henry",
+        "address": "8 Hauk Center",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Scott Rivera",
+        "address": "4 Crownhardt Place",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Carol Johnston",
+        "address": "47 Thackeray Drive",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": true,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Anthony Nguyen",
+        "address": "28 Crescent Oaks Park",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Jason Larson",
+        "address": "1616 Talisman Parkway",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": true
+    },
+    {
+        "name": "Timothy Montgomery",
+        "address": "5259 Springview Drive",
+        "isParticipating": false,
+        "hasFullSizeCandyBars": false,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Christina Cox",
+        "address": "09 Miller Way",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    },
+    {
+        "name": "Roy Ryan",
+        "address": "4604 Reinke Road",
+        "isParticipating": true,
+        "hasFullSizeCandyBars": true,
+        "hasTealPumpkinProjectItems": false,
+        "hasAdultTreats": false
+    }
+]
