@@ -51,9 +51,7 @@ export class HouseListComponent implements OnInit {
 
     loadHouses(): void {
         this.houseService.getHouses().subscribe(
-            houses => {
-                this.houses = houses;
-            },
+            houses => this.houses = houses,
             error => this.errorMessage = <any>error
         );
     }

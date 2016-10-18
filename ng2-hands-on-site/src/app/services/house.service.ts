@@ -44,7 +44,6 @@ export class HouseService {
     }
 
     getHouses(): Observable<House[]> {
-        //const url = '/data/houses.json';
         const url = `${this.dbBaseUrl}.json`;
         return this.http
             .get(url)
