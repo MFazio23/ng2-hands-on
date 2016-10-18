@@ -61,6 +61,10 @@ label {
     color: darkgray;
 }
 
+.grayed-out {
+    opacity: 0.35;
+}
+
 .house-address {
     font-size: 28px;
     text-align: center;
