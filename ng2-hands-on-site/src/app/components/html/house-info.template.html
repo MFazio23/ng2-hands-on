@@ -1,0 +1,45 @@
+<div *ngIf="message" class="alert" [ngClass]="{'alert-success': !error, 'alert-danger': error}">{{message}}</div>
+<div *ngIf="house" class="container">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="house.name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="house.email">
+    </div>
+    <div class="form-group">
+        <label for="street">Street</label>
+        <input type="text" class="form-control" id="street" [(ngModel)]="house.address.street">
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" [(ngModel)]="house.address.city">
+    </div>
+    <div class="form-group">
+        <label for="state">State</label>
+        <select id="state" class="form-control" [(ngModel)]="house.address.state">
+            <option *ngFor="let state of states" [value]="state.abbreviation">{{state.name}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="zip-code">Zip Code</label>
+        <input type="number" class="form-control" id="zip-code" [(ngModel)]="house.address.zipCode">
+    </div>
+    <div class="form-group">
+        <label for="light-amount">Light Amount</label>
+        <select id="light-amount" class="form-control" [(ngModel)]="house.lightAmount">
+            <option *ngFor="let lightAmount of lightAmounts" [value]="lightAmount.val">{{lightAmount.label}}</option>
+        </select>
+    </div>
+    <label class="form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inflatables" [(ngModel)]="house.hasInflatables">Inflatables?
+    </label>
+    <label class="form-check-inline">
+        <input class="form-check-input" type="checkbox" id="projections" [(ngModel)]="house.hasProjections">Projections?
+    </label>
+    <div class="form-group">
+        <button class="btn btn-lg" (click)="backClicked()">Back</button>
+        <button class="btn btn-lg" (click)="saveHouse()">Save</button>
+    </div>
+</div>

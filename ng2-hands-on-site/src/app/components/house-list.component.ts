@@ -5,39 +5,32 @@ import { Router } from "@angular/router";
 
 @Component({
     selector: 'house-list',
-    template: `<h1>
-    {{title}}
-</h1>
-<div>
-    <label>Participating Only?</label>
-    <input type="checkbox" [(ngModel)]="participatingOnly">
-</div>
-<h4 *ngIf="errorMessage">An error has occurred: {{errorMessage}}</h4>
-<ul>
-    <li class="houses" *ngFor="let house of houses; let id = index;" [ngClass]="getRowClass(id)"
-        [class.not-participating]="!house.isParticipating" (click)="goToHouseInfo(id, house)">
-        <div class="house-info house-address">{{house.address}}</div>
+    template: `<ul class="list-group">
+    <li class="list-group-item list-group-item-header">
+        <span>{{title}}</span>
+        <button *ngIf="houses" class="btn" [routerLink]="['/create', houses.length]">Create New House</button>
+    </li>
+    <li *ngIf="errorMessage" class="list-group-item list-group-item-header houses"><h4>An error has occurred: {{errorMessage}}</h4></li>
+    <a class="list-group-item houses" *ngFor="let house of houses; let id = index;" [ngClass]="getRowClass(id)" [routerLink]="['/edit', id]">
+        <div class="house-info house-address">{{house.address.street}}</div>
         <span class="house-info">{{house.name}}</span>
         <div class="house-info house-icons">
-            <img [class.hidden]="!house.hasFullSizeCandyBars" class="house-icon"
-                 src="https://d30y9cdsu7xlg0.cloudfront.net/png/202529-200.png" title="Has Full Size Candy Bars"/>
-            <img [class.hidden]="!house.hasTealPumpkinProjectItems" class="house-icon"
-                 src="http://i.imgur.com/tLZVqAs.png" title="Teal Pumpkin Project"/>
-            <img [class.hidden]="!house.hasAdultTreats" class="house-icon"
-                 src="https://d30y9cdsu7xlg0.cloudfront.net/png/48763-200.png" title='Has "Adult" treats'/>
+            <div class="house-icon">{{house.lightAmount}}</div>
+            <img [class.vis-hidden]="!house.hasInflatables" class="house-icon" src="http://i.imgur.com/pQwxmRh.png"
+                 title="Has Inflatables"/>
+            <img [class.vis-hidden]="!house.hasProjections" class="house-icon" src="http://i.imgur.com/BxoY5uA.png"
+                 title="Has Projections"/>
         </div>
-
-    </li>
+    </a>
 </ul>
 `
 })
 export class HouseListComponent implements OnInit {
-    title = 'House List';
+    title = 'Neighborhood Homes';
 
     participatingOnly: boolean;
 
     houses: House[];
-    houseString: string;
 
     private errorMessage: string;
 
@@ -56,12 +49,11 @@ export class HouseListComponent implements OnInit {
         );
     }
 
-    getRowClass(index): string {
-        return index % 2 === 0 ? 'even' : 'odd';
+    goToHouseInfo(id: number): void {
+        this.router.navigate(['/edit', id]);
     }
 
-    goToHouseInfo(id: number, house: House): void {
-        //console.log("GO to ", id, house);
-        this.router.navigate(['/info', id]);
+    getRowClass(index): string {
+        return index % 2 === 0 ? 'even' : 'odd';
     }
 }
