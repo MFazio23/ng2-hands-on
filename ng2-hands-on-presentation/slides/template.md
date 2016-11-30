@@ -1,7 +1,7 @@
 ##
 ###
 
-<img src="" height="500" />
+<img src="img/" height="500" />
 
 Note:
 +

@@ -1,202 +1,852 @@
 [
     {
-        "name": "Jennifer Sanchez",
-        "address": "4299 Mcguire Avenue",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3801 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "michael@faziodev.org",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.9575821,
+            "lng": -88.28315090000001
+        },
+        "lightAmount": "M",
+        "name": "Michael and Emily Fazio"
     },
     {
-        "name": "Todd Butler",
-        "address": "35 Vermont Court",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": false,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4046 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "jwalker0@tamu.edu",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95653,
+            "lng": -88.28304700000001
+        },
+        "lightAmount": "XL",
+        "name": "Jean Walker"
     },
     {
-        "name": "Melissa Fields",
-        "address": "41468 Graedel Plaza",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3927 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "phart1@addtoany.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.958072,
+            "lng": -88.28396499999997
+        },
+        "lightAmount": "M",
+        "name": "Peter Hart"
     },
     {
-        "name": "Debra Murphy",
-        "address": "5 Golf Plaza",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3641 Applewood Dr",
+            "zipCode": 53189
+        },
+        "email": "cpierce2@businessinsider.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.9600142,
+            "lng": -88.2843138
+        },
+        "lightAmount": "L",
+        "name": "Carolyn Pierce"
     },
     {
-        "name": "Anna Gordon",
-        "address": "47539 Huxley Crossing",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3637 Applewood Dr",
+            "zipCode": 53189
+        },
+        "email": "wstanley3@webs.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.96022500000001,
+            "lng": -88.28423499999997
+        },
+        "lightAmount": "S",
+        "name": "Walter Stanley"
     },
     {
-        "name": "Clarence Graham",
-        "address": "5534 Mallory Park",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2901 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "jwhite4@whitehouse.gov",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.9585168,
+            "lng": -88.2837015
+        },
+        "lightAmount": "L",
+        "name": "Johnny White"
     },
     {
-        "name": "Diana Boyd",
-        "address": "4614 Welch Crossing",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2914 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "bday5@soup.io",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.959006,
+            "lng": -88.28448600000002
+        },
+        "lightAmount": "XL",
+        "name": "Barbara Day"
     },
     {
-        "name": "Rachel Morris",
-        "address": "7682 Bayside Drive",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": false,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3823 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "jhicks6@boston.com",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956603,
+            "lng": -88.28349600000001
+        },
+        "lightAmount": "M",
+        "name": "Joyce Hicks"
     },
     {
-        "name": "Joyce Freeman",
-        "address": "51770 Rowland Trail",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2926 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "csnyder7@usda.gov",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.9589672,
+            "lng": -88.28532819999998
+        },
+        "lightAmount": "XL",
+        "name": "Clarence Snyder"
     },
     {
-        "name": "Carl Cruz",
-        "address": "76597 Shopko Trail",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3650 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "njames8@ted.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95981,
+            "lng": -88.28375199999999
+        },
+        "lightAmount": "M",
+        "name": "Nancy James"
     },
     {
-        "name": "Jeffrey King",
-        "address": "64156 Jackson Drive",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3815 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "stucker9@microsoft.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956929,
+            "lng": -88.28461900000002
+        },
+        "lightAmount": "M",
+        "name": "Sara Tucker"
     },
     {
-        "name": "Evelyn Thomas",
-        "address": "9 Manitowish Hill",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3906 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "llawrencea@drupal.org",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.955882,
+            "lng": -88.28522699999996
+        },
+        "lightAmount": "XL",
+        "name": "Lawrence Lawrence"
     },
     {
-        "name": "Martha Jenkins",
-        "address": "2 Westerfield Crossing",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3801 Bayberry Dr",
+            "zipCode": 53189
+        },
+        "email": "jfullerb@desdev.cn",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.957605,
+            "lng": -88.28556900000001
+        },
+        "lightAmount": "S",
+        "name": "Judy Fuller"
     },
     {
-        "name": "Roy Castillo",
-        "address": "59 Stang Avenue",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": false,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3802 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "tlopezc@apache.org",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.957611,
+            "lng": -88.28505899999999
+        },
+        "lightAmount": "L",
+        "name": "Teresa Lopez"
     },
     {
-        "name": "Samuel Bell",
-        "address": "118 Oak Valley Way",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3818 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "mmillerd@ebay.com",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956995,
+            "lng": -88.28402499999999
+        },
+        "lightAmount": "M",
+        "name": "Mary Miller"
     },
     {
-        "name": "Tina Moore",
-        "address": "721 Everett Street",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3901 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "araye@theglobeandmail.com",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95809,
+            "lng": -88.28563299999996
+        },
+        "lightAmount": "S",
+        "name": "Alice Ray"
     },
     {
-        "name": "Mark Gutierrez",
-        "address": "140 Crest Line Center",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4063 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "amooref@tiny.cc",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.955537,
+            "lng": -88.28297800000001
+        },
+        "lightAmount": "S",
+        "name": "Aaron Moore"
     },
     {
-        "name": "Theresa Henry",
-        "address": "8 Hauk Center",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4043 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "aadamsg@jigsy.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.956488,
+            "lng": -88.28226900000004
+        },
+        "lightAmount": "L",
+        "name": "Albert Adams"
     },
     {
-        "name": "Scott Rivera",
-        "address": "4 Crownhardt Place",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3832 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "golsonh@sfgate.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.956449,
+            "lng": -88.28443700000003
+        },
+        "lightAmount": "L",
+        "name": "Gerald Olson"
     },
     {
-        "name": "Carol Johnston",
-        "address": "47 Thackeray Drive",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": true,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3809 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "rcruzi@businessweek.com",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.9571309,
+            "lng": -88.284493
+        },
+        "lightAmount": "L",
+        "name": "Ralph Cruz"
     },
     {
-        "name": "Anthony Nguyen",
-        "address": "28 Crescent Oaks Park",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3831 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "whernandezj@pcworld.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95623,
+            "lng": -88.28379000000001
+        },
+        "lightAmount": "M",
+        "name": "Wanda Hernandez"
     },
     {
-        "name": "Jason Larson",
-        "address": "1616 Talisman Parkway",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": true
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3838 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "bweaverk@cornell.edu",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.95628199999999,
+            "lng": -88.284626
+        },
+        "lightAmount": "M",
+        "name": "Brandon Weaver"
     },
     {
-        "name": "Timothy Montgomery",
-        "address": "5259 Springview Drive",
-        "isParticipating": false,
-        "hasFullSizeCandyBars": false,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3805 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "jreedl@zimbio.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.957379,
+            "lng": -88.28315299999997
+        },
+        "lightAmount": "M",
+        "name": "Janet Reed"
     },
     {
-        "name": "Christina Cox",
-        "address": "09 Miller Way",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4055 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "jgarrettm@123-reg.co.uk",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.955906,
+            "lng": -88.28266300000001
+        },
+        "lightAmount": "XL",
+        "name": "Janice Garrett"
     },
     {
-        "name": "Roy Ryan",
-        "address": "4604 Reinke Road",
-        "isParticipating": true,
-        "hasFullSizeCandyBars": true,
-        "hasTealPumpkinProjectItems": false,
-        "hasAdultTreats": false
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3931 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "jgrayn@godaddy.com",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95807,
+            "lng": -88.283681
+        },
+        "lightAmount": "XL",
+        "name": "Janice Gray"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2915 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "egarciao@altervista.org",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95852,
+            "lng": -88.28450550000002
+        },
+        "lightAmount": "XL",
+        "name": "Earl Garcia"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4051 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "tarmstrongp@virginia.edu",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956094,
+            "lng": -88.28251599999999
+        },
+        "lightAmount": "L",
+        "name": "Tina Armstrong"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3828 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "lowensq@rediff.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.956619,
+            "lng": -88.2842809
+        },
+        "lightAmount": "M",
+        "name": "Louise Owens"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3823 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "abryantr@people.com.cn",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956553,
+            "lng": -88.284966
+        },
+        "lightAmount": "L",
+        "name": "Ann Bryant"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4058 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "wsimpsons@furl.net",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.95597679999999,
+            "lng": -88.28340830000002
+        },
+        "lightAmount": "M",
+        "name": "Willie Simpson"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3805 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "slarsont@chronoengine.com",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.957341,
+            "lng": -88.28439600000002
+        },
+        "lightAmount": "S",
+        "name": "Scott Larson"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2919 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "mwebbu@bluehost.com",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.9585216,
+            "lng": -88.28476239999998
+        },
+        "lightAmount": "XL",
+        "name": "Mary Webb"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3830 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "klynchv@ted.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.956711,
+            "lng": -88.28577100000001
+        },
+        "lightAmount": "S",
+        "name": "Kimberly Lynch"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4031 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "ryoungw@tiny.cc",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95710700000001,
+            "lng": -88.281995
+        },
+        "lightAmount": "M",
+        "name": "Ralph Young"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3824 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "rgordonx@wiley.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.9567989,
+            "lng": -88.28414499999997
+        },
+        "lightAmount": "XL",
+        "name": "Russell Gordon"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3806 Rivers Crossing Dr",
+            "zipCode": 53189
+        },
+        "email": "jharty@networksolutions.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95740800000001,
+            "lng": -88.28385600000001
+        },
+        "lightAmount": "L",
+        "name": "Jeremy Hart"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3909 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "tfowlerz@usda.gov",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95808299999999,
+            "lng": -88.2850689
+        },
+        "lightAmount": "S",
+        "name": "Terry Fowler"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3814 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "gmartin10@blogs.com",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.957199,
+            "lng": -88.28524399999998
+        },
+        "lightAmount": "S",
+        "name": "Gloria Martin"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2909 Tanglewood Dr",
+            "zipCode": 53189
+        },
+        "email": "cmorgan11@imageshack.us",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.959376,
+            "lng": -88.28422499999999
+        },
+        "lightAmount": "L",
+        "name": "Craig Morgan"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4106 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "lchavez12@delicious.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.955275,
+            "lng": -88.2844159
+        },
+        "lightAmount": "XL",
+        "name": "Louise Chavez"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3923 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "jprice14@friendfeed.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.958074,
+            "lng": -88.28423499999997
+        },
+        "lightAmount": "XL",
+        "name": "Judy Price"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4042 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "nadams15@biblegateway.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956725,
+            "lng": -88.282936
+        },
+        "lightAmount": "S",
+        "name": "Nicole Adams"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3824 Valley Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "mkelley16@dell.com",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.956855,
+            "lng": -88.28556500000002
+        },
+        "lightAmount": "S",
+        "name": "Maria Kelley"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "3915 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "sscott17@reddit.com",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.95808,
+            "lng": -88.28478899999999
+        },
+        "lightAmount": "L",
+        "name": "Susan Scott"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4071 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "rfreeman18@oaic.gov.au",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.955212,
+            "lng": -88.28336999999999
+        },
+        "lightAmount": "XL",
+        "name": "Robert Freeman"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2900 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "cwarren19@smh.com.au",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.959003,
+            "lng": -88.28366399999999
+        },
+        "lightAmount": "XL",
+        "name": "Cheryl Warren"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "2923 Rocky Creek Dr",
+            "zipCode": 53189
+        },
+        "email": "aporter1a@slideshare.net",
+        "hasInflatables": false,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.958468,
+            "lng": -88.28506399999998
+        },
+        "lightAmount": "XL",
+        "name": "Angela Porter"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4028 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "jprice1b@altervista.org",
+        "hasInflatables": false,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.957336,
+            "lng": -88.28270800000001
+        },
+        "lightAmount": "XL",
+        "name": "Julie Price"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4100 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "hlarson1c@sciencedirect.com",
+        "hasInflatables": true,
+        "hasProjections": false,
+        "latLng": {
+            "lat": 42.955408,
+            "lng": -88.28419400000001
+        },
+        "lightAmount": "S",
+        "name": "Harry Larson"
+    },
+    {
+        "address": {
+            "city": "Waukesha",
+            "state": "WI",
+            "street": "4068 Stillwater Cir",
+            "zipCode": 53189
+        },
+        "email": "amedina1d@fotki.com",
+        "hasInflatables": true,
+        "hasProjections": true,
+        "latLng": {
+            "lat": 42.955672,
+            "lng": -88.28382399999998
+        },
+        "lightAmount": "XL",
+        "name": "Ann Medina"
     }
 ]

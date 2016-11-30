@@ -10,32 +10,25 @@ label {
     font-weight: bold;
     color: #373277;
 }
-
-.main-title {
-    text-align: center;
-    font-size: 42px;
+.navbar {
+    margin-bottom: 0;
 }
 
-.top-nav-links {
-    margin: 15px;
+.navbar-brand img {
+    width: 100px;
 }
 
-.top-nav-link {
-    border: 2px solid black;
-    border-radius: 5px;
+.list-group-item-header {
+    margin: 0 auto;
+    max-width: 75%;
     padding: 10px;
-}
-
-.top-nav-link:hover {
-    background-color: lightblue;
+    font-size: 48px;
+    text-align: center;
 }
 
 .houses {
-    list-style-type: none;
-    border: 2px solid grey;
-    border-radius: 5px;
+    margin: 0 auto;
     max-width: 75%;
-    margin: 5px;
     padding: 10px;
     display: flex;
     cursor: pointer;
@@ -46,19 +39,23 @@ label {
 }
 
 .even {
-    background-color: #CCC;
+    background-color: #e7cdcd;
 }
 
 .odd {
-    background-color: #EEE;
+    background-color: #cde7cd;
 }
 
 .house-info {
-    flex: 0 0 25%;
+    flex: 0 0 20%;
 }
 
 .not-participating {
     color: darkgray;
+}
+
+.grayed-out {
+    opacity: 0.35;
 }
 
 .house-address {
@@ -70,14 +67,26 @@ label {
 .house-icons {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex: 0 0 30%;
 }
 
 .house-icon {
-    height: 30px;
-    width: 30px;
+    font-size: 36px;
+    text-align: center;
+    width: 40px;
     cursor: help;
 }
 
-.hidden {
+.vis-hidden {
     visibility: hidden;
+}
+
+/*Map styles*/
+#map {
+    height: 800px;
+}
+
+.info-window {
+    text-align: center;
 }
