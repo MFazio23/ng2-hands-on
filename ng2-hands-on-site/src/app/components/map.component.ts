@@ -48,11 +48,9 @@ export class MapComponent implements AfterViewInit {
     }
 
     private loadHouseMarkers(): void {
-        //TODO: Change this based on settings
-        let markerColor = "0033CC";
-
         for (let houseNum in this.houses) {
             let house = this.houses[houseNum];
+            let markerColor = this.getHouseMarkerColor(house.lightAmount);
             let marker = new google.maps.Marker({
                 map: this.map,
                 position: new google.maps.LatLng(house.latLng.lat, house.latLng.lng),
@@ -61,8 +59,7 @@ export class MapComponent implements AfterViewInit {
 
             let infoWindow = this.mapInfoWindow;
             let address = "";
-            if(house.address) {
-                //TODO: Addresses are all the same.  WHYYY?
+            if (house.address) {
                 //This conversion is here because Typescript doesn't like converting JSON into objects, at least not easily.
                 address = `${house.address.street}, ${house.address.city}, ${house.address.state}  ${house.address.zipCode}`;
             }
@@ -76,7 +73,7 @@ export class MapComponent implements AfterViewInit {
                           <span class="info-window-info">${house.email}</span>
                       </p>
                       <div class="house-icons">
-                        <div class="house-icon">${house.lightAmount}</div>
+                        <div class="house-icon" style="color: #${markerColor}">${house.lightAmount}</div>
                         <img class="house-icon${!house.hasInflatables ? ' grayed-out' : ''}" src="http://i.imgur.com/pQwxmRh.png">
                         <img class="house-icon${!house.hasProjections ? ' grayed-out' : ''}" src="http://i.imgur.com/BxoY5uA.png">
                       </div>
@@ -84,6 +81,16 @@ export class MapComponent implements AfterViewInit {
                 `);
                 infoWindow.open(this.map, marker);
             });
+        }
+    }
+
+    private getHouseMarkerColor(lightAmount): string {
+        switch(lightAmount) {
+            case 'S': return 'C00';
+            case 'M': return 'CC0';
+            case 'L': return '0C0';
+            case 'XL': return '00C';
+            default: return 'DDD';
         }
     }
 
